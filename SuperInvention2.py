@@ -4,7 +4,7 @@ def disp(num): #disp stuff
 num1 = 0 #diming vars
 num2 = 0
 data = -1
-while data != 0: #main program look exits on 0 selection
+while data != 0: #main program loop exits on 0 selection
   if data == 1: #pick numbers
     num1 = int(input("number 1:"))
     num2 = int(input("number 2:"))
